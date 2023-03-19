@@ -1,0 +1,55 @@
+/* Apply styles to the product card row */
+.product-card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Apply styles to the product card columns */
+  .product-card-column {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+  }
+  
+  /* Apply styles to the product card container */
+  .product-card {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Apply styles to the product image */
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Apply styles to the product title */
+  .product-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Apply styles to the product description */
+  .product-card a {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+  
+  /* Apply styles to the add to cart button */
+  .product-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .product-card button:hover {
+    background-color: #555;
+  }
